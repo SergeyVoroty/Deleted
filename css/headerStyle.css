@@ -18,6 +18,13 @@ header {
     width: 1160px;
     height: 40px;
     margin: 15px 140px;
+
+    width: 1440px;
+    height: 70px;
+    padding: 15px 140px;
+    margin: 0;
+    border: 1px solid red;
+
 }
 li {
     display: inline-block;
@@ -25,10 +32,12 @@ li {
 nav {
     margin: auto 0;
     margin-left: 284px;
+
 }
 nav ul {
     margin: 0;
     padding: 0;
+
 }
 nav ul li{
     margin-left: 20px;
@@ -80,6 +89,7 @@ nav ul li a{
 .register-btn {
     display: block;
     width: 196px;
+    width: 169px;
     height: 34px;
     border-radius: 22px;
     font-size: 12px;
