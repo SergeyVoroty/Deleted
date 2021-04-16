@@ -1,0 +1,12 @@
+.flex {
+    display: flex;
+}
+header {
+    width: 1440px;
+    height: 70px;
+}
+iframe {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
