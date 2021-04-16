@@ -1,0 +1,102 @@
+
+footer {
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #1F2041;
+    width: 1160px;
+    height: 172px;
+    margin: 100px 140px;
+    font-size: 14px;
+    text-align: left;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #1F2041;
+    text-decoration: none;
+    margin: 0;
+}
+.first-column {
+    width: 260px;
+    height: 132px;
+}
+.first-column p {
+    opacity: 0.75;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.columns p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 1;
+    text-transform: uppercase;
+}
+.columns ul {
+    margin-top: 21px;
+}
+.columns li {
+    margin-bottom: 20px;
+    opacity: 0.75;
+}
+.columns {
+    display: block;
+    width: auto;
+    margin-left: 40px;
+}
+.subscribe {
+    display: block;
+    width: 260px;
+    height: 152px;
+    margin-left: 40px;
+}
+.subscribe h1 {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 21px;
+}
+.subscribe p{
+    opacity: 0.75;
+    line-height: 24px;
+}
+
+form {
+    display: flex;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+form .email {
+    display: block;
+    width: 201px;
+    height: 42px;
+    margin-left: 15px;
+    border: none;
+    color: rgba(31, 32, 65, 0.25);
+}
+.email-send {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background:url("../images/arrow_forward.png") center no-repeat;
+    border:none;
+}
